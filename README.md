@@ -14,8 +14,15 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program.
 ## Program
-<img width="1226" height="400" alt="Screenshot 2025-09-19 161813" src="https://github.com/user-attachments/assets/43aec1ce-542f-4d99-911a-e5239d5960de" />
+Developed by : Rahul RP
+Rgister number: 212224240125
+import numpy as np
 
+A = np.array([[1, -3],
+              [3,  1]])
+B = np.array([0, 10])
+solution = np.linalg.solve(A, B)
+print(f"[{solution[0]:.0f}. {solution[1]:.0f}.]")
 
 
 
