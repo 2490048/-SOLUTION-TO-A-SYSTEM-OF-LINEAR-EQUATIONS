@@ -14,6 +14,7 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program.
 ## Program
+  ```
 Developed by : Rahul RP
 Rgister number: 212224240125
 import numpy as np
@@ -23,7 +24,7 @@ A = np.array([[1, -3],
 B = np.array([0, 10])
 solution = np.linalg.solve(A, B)
 print(f"[{solution[0]:.0f}. {solution[1]:.0f}.]")
-
+```
 
 
 ## Output:
